@@ -31,14 +31,14 @@ Navigate using arrows, go to "network" > "Wifi", find Your network and connect. 
 
 If it not works, things are getting more serious. Recconect lan cable, connect via putty and log in as pi. 
 You will have to make changes in two files:
-type 'sudo nano /etc/network/interfaces'
+type `sudo nano /etc/network/interfaces`
 and replace whats inside with:
-'auto lo
+`auto lo
 iface lo inet loopback
 
 auto wlan0
 iface wlan0 inet dhcp
-    wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf'
+    wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf`
 
 
 
