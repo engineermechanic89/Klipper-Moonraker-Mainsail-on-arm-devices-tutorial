@@ -88,6 +88,7 @@ https://docs.mainsail.xyz/setup/manual-setup/klipper
 ` nano klipper_config/moonraker.conf'
 
 navigate to "authorization" and "trusted clients" section and edit or add ip range for Your network. For example, if ips in Your network starts with 192.168.1.xxx, edit or add 192.168.1.0/24
+
 <img width="127" alt="image" src="https://user-images.githubusercontent.com/77267254/175826982-9e787b47-e978-4c78-88db-3f18949362b4.png">
 
 it will allow You to acces the web interface via http.
