@@ -11,3 +11,6 @@ Example is based on Orangepi Zero LTS (the one with shitty WiFi module) and Armb
 - patience
 
 # Armbian
+1. Go to Armbians website and download image correct to Your board https://www.armbian.com/download/?device_support=Supported
+Stable branch recommended.
+
