@@ -83,9 +83,9 @@ Install Kiauh https://github.com/th33xitus/kiauh and proceed.
 Go to Mainsail website and proceed with manual setup
 https://docs.mainsail.xyz/setup/manual-setup/klipper
 
-5. Then done. You have to make changes in moonraker config. Type in console:
+5. When done, You have to make changes in moonraker config. Type in console:
 
-` nano klipper_config/moonraker.conf'
+`nano klipper_config/moonraker.conf'
 
 navigate to "authorization" and "trusted clients" section and edit or add ip range for Your network. For example, if ips in Your network starts with 192.168.1.xxx, edit or add 192.168.1.0/24
 
