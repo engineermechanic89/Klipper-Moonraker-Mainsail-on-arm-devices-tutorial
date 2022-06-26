@@ -51,10 +51,17 @@ put inside:
 ```
 
 network={
-   ssid="MASA"
-   psk="surebrec"
+   ssid="YOUR_NETWORK_NAME"
+   psk="YOUR_NETWORK_PASS"
 }
 ```
+do not remove quote marks.
+hit `Ctrl+O` to save and `Ctrl+X` to exit
+
+Last step is to remove native network-manager, type:
+`sudo apt remove network-manager`
+
+after that, reboot by typing `reboot` in console.
 
 
 
