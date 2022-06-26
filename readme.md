@@ -18,8 +18,8 @@ Stable branch recommended.
 4. Acces Your routers management interface via http, find clients table and find Your boards IP. In my case it's called orangepi.
 5. Open putty, type in boards IP and connect, the terminal widow should show up
 <img width="479" alt="image" src="https://user-images.githubusercontent.com/77267254/175824871-e606b4c9-c244-44ba-9dac-08d8657fe41a.png">
-6. Log in as user: root pass: 1234
+6. Log in as user: root pass: 1234 
 7. You will be asked to change root passwod so type in Your password twice.
-8. Next You will be asked to create ner user, to avoid problems later, name it pi and continue to set up passwod, locale etc.
-9. 
+9. Next You will be asked to create ner user, to avoid problems later, name it pi and continue to set up passwod, locale etc.
+10. 
 
