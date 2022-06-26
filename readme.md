@@ -74,8 +74,10 @@ Install git, dfu-util and unzip by typing:
 `sudo apt install virtualenv python-dev libffi-dev build-essential libncurses-dev libusb-1.0-0-dev avrdude gcc-avr binutils-avr avr-libc stm32flash dfu-util libnewlib-arm-none-eabi gcc-arm-none-eabi binutils-arm-none-eabi libusb-1.0-0`
 
 4. When finished You are ready to install the rest. There are two ways:
+
 **Easy way**
 Install Kiauh https://github.com/th33xitus/kiauh and proceed.
+
 
 **Still easy but harder way**
 Go to Mainsail website and proceed with manual setup
