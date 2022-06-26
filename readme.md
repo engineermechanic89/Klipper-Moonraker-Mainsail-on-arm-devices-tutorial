@@ -10,3 +10,4 @@ Example is based on Orangepi Zero LTS (the one with shitty WiFi module) and Armb
 - lan cable
 - patience
 
+#Installing Armbian
