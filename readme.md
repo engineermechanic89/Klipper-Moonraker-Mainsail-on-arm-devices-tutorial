@@ -93,5 +93,5 @@ navigate to "authorization" and "trusted clients" section and edit or add ip ran
 
 it will allow You to acces the web interface via http.
 
-#END
+# END
 
