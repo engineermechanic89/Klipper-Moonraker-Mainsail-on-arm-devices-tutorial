@@ -21,7 +21,7 @@ Stable branch recommended.
 
 6. Log in as user: **root** pass: **1234** 
 7. You will be asked to change root passwod so type in Your password twice.
-9. Next You will be asked to create ner user, to avoid problems later, name it **pi** and continue to set up passwod, locale etc. When done You should see something like this:
+9. Next You will be asked to create new user, to avoid problems later, name it **pi** and continue to set up passwod, locale etc. When done You should see something like this:
 <img width="523" alt="image" src="https://user-images.githubusercontent.com/77267254/175825174-d7ea8d02-f496-4bb2-9a00-8abb6639a33a.png">
 
 10. Next step is setting up WiFi connection. First way is to type `sudo armbian-config` 
