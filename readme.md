@@ -27,7 +27,7 @@ Stable branch recommended.
 10. Next step is setting up WiFi connection. First way is to type `sudo armbian-config` 
 <img width="676" alt="image" src="https://user-images.githubusercontent.com/77267254/175825283-c5ec8c1a-cc92-47d3-87d4-a962a062d604.png">
 
-Navigate using arrows, go to "network" > "Wifi", find Your network and connect. Check the connection via routers management interface, disconnect lan cable and try to connect using putty and wireless card ip.
+Navigate using arrows, go to "network" > "Wifi", find Your network and connect. Check the connection via routers management interface, disconnect lan cable and try to connect using putty and wireless module ip.
 
 If it not works, things are getting more serious. Recconect lan cable, connect via putty and log in as pi. 
 You will have to make changes in two files:
