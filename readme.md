@@ -49,19 +49,24 @@ next type:
 
 put inside:
 ```
-
 network={
    ssid="YOUR_NETWORK_NAME"
    psk="YOUR_NETWORK_PASS"
 }
 ```
 do not remove quote marks.
-hit `Ctrl+O` to save and `Ctrl+X` to exit
+hit `Ctrl+O` to save and `Ctrl+X` to exit.
 
 Last step is to remove native network-manager, type:
 `sudo apt remove network-manager`
 
 after that, reboot by typing `reboot` in console.
+When rebooted, You should be connected to Your Wifi.
 
-
+# Klipper/Moonraker/Mainsaill
+1. Log in as **pi**
+2. Update and install required packages by typing:
+`sudo apt update` and next `sudo apt upgrade`
+Install git, dfu-util and unzip by typing:
+`sudo apt install git dfu-util unzip`
 
