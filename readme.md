@@ -34,12 +34,27 @@ You will have to make changes in two files:
 type `sudo nano /etc/network/interfaces`
 and replace whats inside with:
 
-``
+```
 auto lo
 iface lo inet loopback
 
 auto wlan0
 iface wlan0 inet dhcp
     wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
-``
+```
+hit `Ctrl+O` to save and `Ctrl+X` to exit
+
+next type:
+`sudo nano /etc/wpa_supplicant/wpa_supplicant.conf`
+
+put inside:
+```
+
+network={
+   ssid="MASA"
+   psk="surebrec"
+}
+```
+
+
 
