@@ -63,12 +63,20 @@ Last step is to remove native network-manager, type:
 after that, reboot by typing `reboot` in console.
 When rebooted, You should be connected to Your Wifi.
 
-# Klipper/Moonraker/Mainsaill
+# Klipper/Moonraker/Mainsail
 1. Log in as **pi**
 2. Update and install required packages by typing:
 `sudo apt update` and next `sudo apt upgrade`
 Install git, dfu-util and unzip by typing:
 `sudo apt install git dfu-util unzip`
 3. You need to install some packages required for klipper and since Armbian is not Debian based, there are some differences in packages names. Just copy and paste to Your concole:
+
 `sudo apt install virtualenv python-dev libffi-dev build-essential libncurses-dev libusb-1.0-0-dev avrdude gcc-avr binutils-avr avr-libc stm32flash dfu-util libnewlib-arm-none-eabi gcc-arm-none-eabi binutils-arm-none-eabi libusb-1.0-0`
 
+4. When finished You are ready to install the rest. There are two ways:
+**Easy way**
+Install Kiauh https://github.com/th33xitus/kiauh and proceed.
+
+**Still easy but harder way**
+Go to Mainsail website and proceed with manual setup
+https://docs.mainsail.xyz/setup/manual-setup/klipper
