@@ -16,3 +16,6 @@ Stable branch recommended.
 2. Put Your card into reader, open Balena Etcher, select image file, sdcard and flash it.
 3. Put the card into Your PI, connect it to router with lan cable, power up the board, wait a while.
 4. Acces Your routers management interface via http, find clients table and find Your boards IP. In my case it's called orangepi.
+5. Open putty, type in boards IP and connect, the terminal widow should show up
+<img width="479" alt="image" src="https://user-images.githubusercontent.com/77267254/175824871-e606b4c9-c244-44ba-9dac-08d8657fe41a.png">
+
