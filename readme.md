@@ -69,7 +69,7 @@ When rebooted, You should be connected to Your Wifi.
 `sudo apt update` and next `sudo apt upgrade`
 Install git, dfu-util and unzip by typing:
 `sudo apt install git dfu-util unzip`
-3. You need to install some packages required for klipper and since Armbian is not Debian based, there are some differences in packages names. Just copy and paste to Your concole:
+3. You need to install some packages required for klipper and since it's Armbian, there are some differences in packages names. Just copy and paste to Your concole:
 
 `sudo apt install virtualenv python-dev libffi-dev build-essential libncurses-dev libusb-1.0-0-dev avrdude gcc-avr binutils-avr avr-libc stm32flash dfu-util libnewlib-arm-none-eabi gcc-arm-none-eabi binutils-arm-none-eabi libusb-1.0-0`
 
